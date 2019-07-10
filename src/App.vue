@@ -8,6 +8,7 @@
     <el-tag type="warning">标签四</el-tag>
     <el-tag type="danger">标签五</el-tag>
     <router-view/>
+    哈哈哈哈
   </div>
 </template>
 
