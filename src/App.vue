@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+  	AHJunTime
     <img src="./assets/logo.png">
     <el-tag>标签一</el-tag>
     <el-tag type="success">标签二</el-tag>
