@@ -6,17 +6,22 @@ import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import api from "./http";
+import i18n from './i18n'
+import store from './store'
+import global from '@/utils/global'
 
 
 Vue.use(ElementUI)
 Vue.use(api)
 
 Vue.config.productionTip = false
+Vue.prototype.global = global
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
