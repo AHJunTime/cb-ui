@@ -5,8 +5,8 @@
  */
 
  // 后台管理系统服务器地址
-export const baseUrl = process.env.baseUrl
-//export const baseUrl = 'http://localhost:9084/console'
+//export const baseUrl = process.env.baseUrl
+export const baseUrl = 'https://frp.creatorblue.com/console'
 export const baseUrlUpload = process.env.baseUrlUpload
 
 //字典图标显示地址

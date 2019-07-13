@@ -1,6 +1,6 @@
 import axios from '../axios'
 
-/* 
+/*
  * 系统登录模块
  */
 
@@ -19,4 +19,12 @@ export const logout = () => {
         url: 'user/logout',
         method: 'get'
     })
+}
+
+export const getInitMenu = data => {
+  return axios({
+    url: '/index-api/getInitMenu',
+    method: 'get',
+    data
+  })
 }
