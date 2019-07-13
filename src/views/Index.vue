@@ -36,14 +36,8 @@
     </el-menu>
 
     <el-menu :default-active="activeIndex2" class="el-menu-demo" mode="horizontal"  @select="handleSelect"
-             background-color="#545c64" text-color="#fff"active-text-color="#ffd04b">
-      <el-menu-item v-for="(menu, index) in evglSiteMenuList" :index="index">
-        {{menu.name}} {{index}}
-        <el-submenu v-for="(childMenu, childIndex) in evglSiteMenuchildListList">
-          <template slot="title">我的工作台</template>
-          <el-menu-item v-if="childMenu.parentId == menu.menuId" :index="index">{{childMenu.name}}</el-menu-item>
-        </el-submenu>
-      </el-menu-item>
+             background-color="#545c64" text-color="#fff" active-text-color="#ffd04b">
+      
     </el-menu>
 
   </div>
